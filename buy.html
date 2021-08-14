@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Where to go</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@100;500;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      form fieldset {
+        color: #9b0b2f;
+      }
+    </style>
+    <!--tentative name and sections-->
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="logoindex">
+          <img src="logo test.jpg" width="20%" />
+        </div>
+    <h1>
+      <a href="index.html">Volver a Menu</a>
+    </h1>
+    <section class="header ">
+      <nav class="header__menu">
+        <a href="ourexperts.html">Our Experts</a>
+        <a href="winereview.html">Wine Reviewo</a>
+        <a href="learnaboutwines.html">Learn About Wines</a>
+      </nav>
+    </div>
+    </section>
+    <form class="flexcontainer">
+      <fieldset class="flexcontainer-legend">
+        <legend>Informacion General</legend>
+        <div class="flexcontainer-legend__div">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" />
+        </div>
+        <div class="flexcontainer-legend__div">
+          <label for="apellido">Apellido</label>
+          <input type="text" id="apellido" apellido="apellido" />
+        </div>
+        <div class="flexcontainer-legend__div">
+          <label for="email">Email</label>
+          <input type="email" id="email" email="email" />
+        </div>
+        <div class="flexcontainer-legend__div">
+          <label for="preferencias">Preferencias</label>
+          <select aria-multiselectable="preferencias">
+            <option>Rojo</option>
+            <option>Naranjo</option>
+            <option>Rosado</option>
+            <option>Blanco</option>
+          </select>
+        </div>
+        <div class="flexcontainer-legend__div">
+          <label for="comentarios">Comentarios</label>
+          <input type="text" id="comentarios" comentarios="comentarios" />
+        </div>
+        <div>
+          <label for="reset">Remover comentarios</label>
+          <input type="reset" id="reset" reset="reset" />
+        </div>
+        <div class="flexcontainer-legend__div">
+          <label for="si"
+            >Tengo la edad legal para consumir bebidas alcoholicas</label
+          >
+          <input type="radio" id="si" name="si" />
+        </div>
+        <label for="save"></label>
+        <input type="submit" id="salvar" salvar="salvar" />
+      </fieldset>
+    </form>
+  </body>
+</html>
